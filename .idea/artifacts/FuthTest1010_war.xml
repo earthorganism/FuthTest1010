@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FuthTest1010:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="FuthTest1010.war">
+      <element id="artifact" artifact-name="FuthTest1010:war exploded" />
+    </root>
+  </artifact>
+</component>
