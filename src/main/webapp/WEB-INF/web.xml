@@ -5,3 +5,16 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 </web-app>
+<welcome-file-list>
+<welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+
+<servlet>
+<servlet-name>hello</servlet-name>
+<servlet-class>HelloServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>hello</servlet-name>
+<url-pattern>/hello</url-pattern>
+</servlet-mapping>
